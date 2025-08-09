@@ -1,12 +1,12 @@
 # ANN-Classification-Churn
 
-This guide documents the steps, tools, and setup instructions used to get TensorFlow working on an Apple Silicon Mac (M1/M2/M3). It also includes the full workflow for running the ANN churn prediction project from start to finish, along with instructions for running it as a Streamlit web application.
+This guide documents the setup instructions used to get TensorFlow working on an Apple Silicon Mac (M1/M2/M3). It also includes the full workflow for running the ANN churn prediction project from start to finish, along with instructions for running it as a Streamlit web application.
 
 ## Environment Overview
 
 * **Apple Silicon Mac (ARM64):** MacBook with M1/M2 chip using ARM-based architecture, not Intel x86.
 * **Python 3.11 (ARM, via Homebrew):** Version of Python compatible with TensorFlow and optimized for Apple chips.
-* **TensorFlow (Apple Silicon version):** Machine learning library where the Apple-optimized version (`tensorflow-macos`) is required.
+* **TensorFlow (Apple Silicon version):** Machine learning library where the Apple-optimized version (tensorflow-macos) is required.
 
 ## Setup Instructions (First Time)
 
@@ -56,11 +56,11 @@ This project predicts bank customer churn using an Artificial Neural Network (AN
 
 ### 1. Preprocessing
 
-* Drop irrelevant identifiers: `RowNumber`, `CustomerId`, `Surname`.
-* Encode `Gender` using Label Encoding.
-* One-hot encode `Geography` to avoid ordinal bias.
-* Save encoders (`LabelEncoder` and `OneHotEncoder`) for later use.
-* Standardize numerical features with `StandardScaler` and save it.
+* Drop irrelevant identifiers: RowNumber, CustomerId, Surname.
+* Encode Gender using Label Encoding.
+* One-hot encode Geography to avoid ordinal bias.
+* Save encoders (LabelEncoder and OneHotEncoder) for later use.
+* Standardize numerical features with StandardScaler and save it.
 
 ### 2. Model Architecture
 
