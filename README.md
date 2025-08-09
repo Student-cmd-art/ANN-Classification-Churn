@@ -123,3 +123,5 @@ A Streamlit app is included to make predictions through a web interface.
    ```
    http://localhost:8501
    ```
+
+Streamlist App: https://ann-classification-churn-9phn6hzcpozoqtbq9fxhif.streamlit.app/
