@@ -123,5 +123,14 @@ A Streamlit app is included to make predictions through a web interface.
    ```
    http://localhost:8501
    ```
+----
+
+Beyond the architecture described above, the model can also be optimized using hyperparameter tuning techniques.
+Examples include:
+a. Adjusting the number of neurons in each layer.
+b. Changing the number of hidden layers in the network.
+c. Tuning the learning rate, batch size, and dropout rate.
+d. Using libraries like GridSearchCV (via KerasClassifier wrapper) to systematically search for the best combination of hyperparameters.
+
 
 Streamlist App: https://ann-classification-churn-9phn6hzcpozoqtbq9fxhif.streamlit.app/
