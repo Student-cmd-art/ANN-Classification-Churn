@@ -29,7 +29,7 @@ This guide documents the steps, tools, and setup instructions used to get Tensor
    ```bash
    pip install tensorflow-macos
    ```
-   * `tensorflow-macos`: Apple Silicon version of TensorFlow
+   * tensorflow-macos: Apple Silicon version of TensorFlow
 
 5. **Install Jupyter and other dependencies**
 
@@ -123,5 +123,3 @@ A Streamlit app is included to make predictions through a web interface.
    ```
    http://localhost:8501
    ```
-
-Do you want me to add that?
