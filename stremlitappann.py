@@ -1,12 +1,11 @@
 import streamlit as st
 import pandas as pd
-import tensorflow as tf
 from tensorflow.keras.models import load_model
 import pickle
 
 @st.cache_resource
 def load_artifacts():
-    model = tf.keras.models.load_model('model.h5', compile=False)
+    model = load_model('model.h5', compile=False)
     with open('label_encoder_gender.pkl', 'rb') as f:
         label_gender = pickle.load(f)
     with open('one_hot_encoder_geo.pkl', 'rb') as f:
