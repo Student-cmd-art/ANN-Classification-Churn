@@ -132,5 +132,27 @@ b. Changing the number of hidden layers in the network.
 c. Tuning the learning rate, batch size, and dropout rate.
 d. Using libraries like GridSearchCV (via KerasClassifier wrapper) to systematically search for the best combination of hyperparameters.
 
+## Applications of ANNs
+
+ANNs are inspired by the structure of the human brain and are designed to recognize complex patterns in data. They are  powerful when dealing with **non-linear relationships**, **high-dimensional data**, and **classification or prediction problems**. In the context of churn prediction, ANNs learn subtle behavioural signals from customer data (e.g., usage history, demographics, engagement metrics) to identify patterns that indicate whether a customer is likely to leave.
+
+**Key strengths of ANNs:**
+- Learn feature interactions that traditional models may miss  
+- Handle noisy, messy, and large datasets   
+- Provide probabilistic outputs (confidence scores / churn probabilities)  
+
+## Use-Cases of ANNs in the Insurance Domain
+
+Common applications can include:
+
+- **Customer Churn Prediction:**  
+  Identify policyholders likely to switch providers so targeted retention campaigns (e.g premium discounts, call-backs) can be launched.
+
+- **Fraud Detection:**  
+  Analyse claim patterns in real-time to detect suspicious/abnormal behaviour for faster flagging of fraudulent claims.
+
+- **Risk Scoring & Underwriting:**  
+  Predict claim likelihood by learning from historical policy and claims data (more accurate premium pricing & risk assessment).
+
 
 Streamlist App: https://ann-classification-churn-9phn6hzcpozoqtbq9fxhif.streamlit.app/
